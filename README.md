@@ -3,6 +3,9 @@
 ## Introduction
 This is a self-ordering web-based project that includes **HTML, CSS, JavaScript, PHP, and MySQL**.
 
+![Uploading image.png…]()
+
+
 ## Tools Required
 - **XAMPP v3.3.0**
 - **PHP** (included in XAMPP)
