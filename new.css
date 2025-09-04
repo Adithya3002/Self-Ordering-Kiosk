@@ -1,0 +1,43 @@
+body{
+    background: url(back.jpg);
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+}
+.cnt{
+    position: absolute;
+    top:130px;
+    width: 450px;
+    height: 300px;
+    border:1px solid black;
+    background-color: blanchedalmond;
+    backdrop-filter: blur(30px);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px black;
+}
+.cnt label{
+    position: absolute;
+    top:70px;
+    left:85px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.cnt .image{
+    position: absolute;
+    top:140px;
+    left:150px;
+}
+
+.cnt .upload{
+    position: absolute;
+    top:180px;
+    left:150px;
+}
+
+/****/
+
+

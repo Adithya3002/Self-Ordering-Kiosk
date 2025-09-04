@@ -1,0 +1,47 @@
+body{
+    background: url(https://www.pixground.com/wp-content/uploads/2023/07/Dark-Blue-Abstract-Layers-AI-Generated-4K-Wallpaper-jpg.webp);
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+}
+.cnt{
+    width: 450px;
+    height: 320px;
+    border:1px solid black;
+    background-color: transparent;
+    backdrop-filter: blur(30px);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px black;
+}
+.cnt h2{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.cnt p{
+    color: white;
+    font-weight: bold; 
+    font-size: 20px;
+    position: relative;
+    left: 25px;
+    top: 50px;
+}
+.cnt .p1{
+    position: relative;
+    top: 50px;
+    left: 130px;
+    
+}
+.cnt a{
+    color: white;
+    position: relative;
+    left: 3px;
+}
+
+
+/****/
+
+

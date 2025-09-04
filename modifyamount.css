@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url(home.jpg);
+    background-size: cover;
+}
+.cont{
+     width: 800px;
+     height: 400px;
+    box-shadow: 2px 2px 20px black;
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+}
+figure{
+    margin:0;
+}
+figure a
+{
+    position:absolute;
+    top:-13px;
+    left:6px;
+}
+
+input::placeholder{
+    color:white;
+}
+
+input{
+    margin-bottom: 15px;
+    top:80px;
+    position: relative;
+    left: 10px;
+    width: 307px;
+    height: 30px;
+    margin-left: 10px;
+    /* transition: 0.3s linear;
+    background: transparent; */
+    border: none;
+    border-bottom: 1px;
+}
+
+input:hover{
+    border: none;
+    /* background-color: none; */
+    cursor: pointer;    
+}
+
+
+
+form{
+    font-size: 1.1rem;
+    font-family: 'calibri';    
+    font-weight    : bold;
+}
+.cont h2{
+    top: 20px;
+    position: relative; 
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px; 
+}
+
+.btn{
+    width: 106px;
+    height: 30px;
+    position: relative;
+    top: 150px;
+    left: 310px;
+    margin-top: 22px;
+    font-weight: bold;
+    background-color:white;
+    color: black;
+    transition: 0.4s linear;
+    
+    border-radius: 12px;
+    border: none;
+}
+.btn:hover{
+    background-color: blue;
+    color: white;
+    box-shadow: 0px 0px 4px blue;
+    border: none;
+    cursor: pointer;
+}
+
+.lb1
+{
+    color:white;
+    position:absolute;
+    top:120px;
+    left:80px;
+}
+
+.inp1
+{
+    position:absolute;
+    top:120px;
+    left:190px;
+    border-radius:5px;
+    border:none;
+}
+
+.lb2
+{
+    color:white;
+    position: absolute;
+    top:210px;
+    left:80px;
+}
+.inp2
+{
+    position: absolute;
+    top:210px;
+    left:190px;
+    border-radius:5px;
+    border:none;
+}
+
+
+
+.btn2
+{
+    width: 106px;
+    height: 30px;
+    position: relative;
+    top: 190px;
+    left: 190px;
+    margin-top: 22px;
+    font-weight: bold;
+    background-color:white;
+    color: black;
+    transition: 0.4s linear;
+    
+    border-radius: 12px;
+    border: none;
+}
+
+.btn2:hover
+{  background-color: blue;
+    color: white;
+    box-shadow: 0px 0px 4px blue;
+    border: none;
+    cursor: pointer;
+}

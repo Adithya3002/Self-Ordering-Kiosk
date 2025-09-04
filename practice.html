@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Page Title</title>
+    <!-- Other meta tags, CSS links, etc. -->
+</head>
+<body>
+
+
+    <form action="practice.php" method="post" id="addItemForm">
+        <section class="idly">
+            <label class="name1" for="itemName">Butter Naan</label>
+            <input type="hidden" id="itemName" name="itemName" value="Butter Naan">
+            <label class="amount1" for="itemAmount">40</label>
+            <input type="hidden" id="itemAmount" name="itemAmount" value="40">
+            <input type="hidden" id="quantity" name="quantity" value=""> <!-- Hidden input for quantity -->
+            <img class="rupee" src="indianrupee.svg">
+            <p>It is a flatbread that is baked in a tandoor. It is often covered in herbs and spices.<br> Naan bread is made from basic bread ingredients like wheat flour, salt, and butter or ghee.</p>
+            <input type="submit" name="btn1" value="Add+" onclick="showQuantityPopup()">
+            <img class="idlyimg" src="butternaan.jpg">
+        </section>
+    </form>
+    
+
+
+<script>
+function showQuantityPopup() {
+    var quantity = prompt("Enter quantity:");
+    if (quantity !== null) {
+        // If user entered a value, submit the form with the quantity
+        document.getElementById("quantity").value = quantity;
+        document.getElementById("addItemForm").submit();
+    }
+}
+</script>
+
+</body>
+</html>

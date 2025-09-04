@@ -1,0 +1,94 @@
+body{
+    background: url(red.jpg);
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+}
+.error-container h5{
+    font-size:20px;
+    color:white;
+
+}
+.error-container{
+    width: 450px;
+    height: 500px;
+    border:1px solid black;
+    background-color: transparent;
+    backdrop-filter: blur(30px);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px black;
+}
+.error-container h3{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+.error-container p{
+    color: white;
+    font-weight: bold; 
+    font-size: 20px;
+    position: relative;
+    left: 25px;
+    top: 50px;
+}
+.error-container .p1{
+    position: relative;
+    top: 50px;
+    left: 130px;
+    
+}
+.error-container a{
+    color: white;
+    position: relative;
+    left: 3px;
+}
+
+
+/****/
+
+
+body{
+    background: url(red.jpg);
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+}
+.cnt2{
+    width: 450px;
+    height: 320px;
+    border:1px solid black;
+    background-color: transparent;
+    backdrop-filter: blur(30px);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px black;
+}
+.cnt2 h2{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.cnt2 p{
+    color: white;
+    font-weight: bold; 
+    font-size: 20px;
+    position: relative;
+    left: 25px;
+    top: 50px;
+}
+.cnt2 .p2{
+    position: relative;
+    top: 50px;
+    left: 130px;
+    
+}
+.cnt2 a{
+    color: white;
+    position: relative;
+    left: 3px;
+}

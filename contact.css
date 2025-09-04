@@ -1,0 +1,51 @@
+nav{
+    background-color: orange;
+    overflow:hidden;
+
+}
+
+nav a{
+    float:right;
+    display: block;
+    text-align:center;
+    padding:20px;
+    text-decoration: none;
+}
+
+.bigcont{
+    display:flex;
+    justify-content: center;
+}
+
+.sub{
+    padding:20px;
+}
+
+figure{
+    margin:0;
+}
+figure a
+{
+    position:absolute;
+    top:10px;
+    left:6px;
+}
+
+section{
+    padding:20px;
+    background-color:aliceblue;
+    
+}
+
+
+.sub{
+    width:100%;
+}
+
+footer{
+    padding:20px;
+    background-color: rgb(255, 153, 0);
+    text-align:center;
+}
+
+
